@@ -1,0 +1,19 @@
+.myFace {
+  border-radius: 100%;
+  min-width: 400px;
+  height: 550px;
+}
+
+.btn {
+  margin-left: 20px;
+}
+
+.main Link {
+  color: black;
+  margin-left: 200px;
+}
+.logo {
+  height: 35px;
+  width: 40px;
+}
+

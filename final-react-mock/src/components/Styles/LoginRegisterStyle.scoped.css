@@ -1,0 +1,96 @@
+tbody tr:hover {
+  background-color: rgba(110, 48, 168, 0.281);
+  transition: 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.Login,
+.Register {
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input,
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.loginBtn,
+.registerDirectBtn,
+.homeBtn,
+.registerBtn {
+  background-color: rgba(46, 216, 216, 0.562);
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.loginBtn:hover,
+.registerDirectBtn:hover,
+.registerBtn:hover {
+  background-color: hsla(342, 76%, 54%, 0.718);
+  color: white;
+  transition: 0.4s;
+}
+
+form {
+  height: auto;
+  background: url("../images/background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+form .form-inner {
+  background-color: rgba(49, 116, 192, 0.39);
+  padding: 30px;
+}
+
+form .form-inner h2 {
+  color: rgba(213, 214, 115, 0.849);
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+form .form-inner .form-group {
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.form-inner .form-group label {
+  display: block;
+  color: rgba(185, 233, 10, 0.87);
+  font-size: 12px;
+  margin-bottom: 5px;
+  transition: 0.4s;
+}
+
+.form-inner .form-group:focus-within label {
+  color: #fe4880;
+}
+
+form .form-inner .form-group input {
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+form .form-inner .form-group input:focus {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+span{
+  color: #fe4880;
+}
